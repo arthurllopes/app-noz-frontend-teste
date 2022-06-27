@@ -1,7 +1,7 @@
-# Ioasys desafio técnico Front End
+# Noz desafio técnico Front End
 Aplicação para ver listagens de livros.</br>
 
-Link da demo: 
+Link da demo: https://silly-kashata-df5777.netlify.app
 
 
 ## 💻 Tecnologias
@@ -18,9 +18,9 @@ Link da demo:
 
 ```bash
 # Abra um terminal e copie este repositório com o comando
-$ git clone 
+$ git clone https://github.com/arthurllopes/app-noz-frontend-teste.git
 # Entre na pasta do repositório clonado
-$ cd 
+$ cd app-noz-frontend-teste
 ```
 
 ### **Iniciando o projeto**
