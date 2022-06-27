@@ -1,0 +1,15 @@
+.page-content {
+    background-color: #eee;
+    padding: 0 2em;
+    min-height: 100vh;
+}
+.books-list {
+    width: 100%;
+    align-self: center;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fill, 272px);
+    grid-auto-rows: auto;
+    justify-content: center;
+}
+

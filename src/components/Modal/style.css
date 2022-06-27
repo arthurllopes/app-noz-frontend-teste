@@ -1,0 +1,117 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0, .4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.content {
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    position: relative;
+    max-width: 800px;
+}
+.close-btn {
+    position: absolute;
+    left: 100%;
+    top: -5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.book-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8px;
+    height: auto;
+}
+.book-title {
+    margin-bottom: 12px;
+}
+.info-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 8px 0;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.info-item {
+    font-weight: 500;
+    font-size: .85rem;
+
+}
+.info-info {
+    font-weight: 400;
+    font-size: .85rem;
+    color: #999;
+
+}
+.img-div {
+    padding: 12px;
+    height: fit-content;
+}
+.modal-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 340px;
+}
+h5, h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 24px;
+
+}
+@media only screen and (max-width: 900px) {
+    .content {
+        max-width: 80vw;
+    }
+    .modal-img {
+        width: 200px;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        max-width: 80vw;
+    }
+    .book-info {
+        overflow-y: scroll;
+        height: auto;
+    }
+    .modal-img {
+        height: auto;
+        width: 160px;
+    }
+    .close-btn {
+        left: 95%
+    }
+}

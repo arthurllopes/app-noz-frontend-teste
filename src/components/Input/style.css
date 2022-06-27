@@ -1,0 +1,19 @@
+input {
+    color: white;
+    width: 100%;
+    padding: 4px 0;
+    margin: 4px 0;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    
+}
+.input-info {
+    width: 100%;
+}
+label {
+    font-size: .75rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
